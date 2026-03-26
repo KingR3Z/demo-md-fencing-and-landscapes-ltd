@@ -30,8 +30,8 @@ export const client = {
   twitter: "",
 
   // Reviews
-  googleRating: "5.0",
-  reviewCount: "0",
+  googleRating: "5",
+  reviewCount: "4",
 
   // Services
   services: [
@@ -79,9 +79,10 @@ export const client = {
 
   // Reviews — placeholder
   reviews: [
-    { name: "Happy Customer", rating: 5, text: "Excellent work, very professional team. Would highly recommend to anyone looking for quality landscaping.", date: "2025" },
-    { name: "Satisfied Client", rating: 5, text: "Transformed our garden completely. Great communication throughout the project.", date: "2025" },
-    { name: "Local Resident", rating: 5, text: "Reliable, punctual and the finished result exceeded our expectations.", date: "2025" },
+    { name: "LouT", rating: 5, text: "New I have no hesitation in recommending and advocating Mario and his team. He and his team have an incredible work ethic. They worked very efficiently, solidly working on to ensure the job was completed for us in a time efficient manner. …  ", date: "3 weeks ago" },
+    { name: "Tony Asvestas", rating: 5, text: "⭐️⭐️⭐️⭐️⭐️ Absolutely Outstanding Landscaping Service!  I couldn’t be happier with the work this landscaping company did for my …  ", date: "3 months ago" },
+    { name: "Glen Cousner", rating: 5, text: "Mario and his team are brilliant! They’ve just completed ground works, built flower beds and patio work ahead of another company coming in to build a garden building. They’ve worked like crazy in the awful January weather and spent so much …  ", date: "2 months ago" },
+    { name: "Rebecca Carver", rating: 5, text: "I found Mario after being let down by another contractor, and I’m so glad I did. He was reliable, professional, and his team delivered excellent work with great attention to detail. ", date: "3 months ago" },
   ] as { name: string; rating: number; text: string; date: string; badge?: string }[],
 
   // SEO
